@@ -28,12 +28,16 @@ body{
 .card:hover{
     box-shadow: 0 0 11px rgba(5, 90, 114, 0.6);
 }
-.wrapperdo, .ques{
+.wrapperdo, .ques, .graph{
     background-color: #ffffff;
-    width: 98%;
+    width: 96%;
     padding: 2rem;
     font-size: 0.9rem;
     margin-bottom: 2rem;
+}
+.graph img{
+    width: 90%;
+    border: 0.4px solid #d5d5d5;
 }
 .do > i{
     padding-top: 1rem;
